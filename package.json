@@ -1,0 +1,15 @@
+{
+  "name": "expressdemoapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "up": "mkdir data && docker-compose up -d",
+    "stop": "docker-compose stop",
+    "down": "docker-compose down",
+    "dev": "npm run dev --prefix api"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
