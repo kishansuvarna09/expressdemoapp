@@ -1,0 +1,11 @@
+# exclude node modules
+node_modules
+
+# exclude mongodb data directory
+data
+
+# exclude environment files
+.env
+
+# exclude lock files
+package-lock.json
